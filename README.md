@@ -49,9 +49,8 @@ Bank-Marketing-Analysis/
 │   ├── balance_age_boxplot.png
 │   ├── campaign_duration_jointplot.png
 │   ├── success_kde.png
-│   └── dept_success_pie.png
-├── requirements.txt          # Python dependencies
-└── .gitignore                # Ignore large files, outputs
+└── ├── dept_success_pie.png
+
 ```
 
 # Visualizations Created
