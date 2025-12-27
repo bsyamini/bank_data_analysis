@@ -36,7 +36,7 @@ Feature engineering (balance_age_ratio)
 
 Insights Extraction: Groupby metrics (avg duration/success by campaign, department rates)
 ​
-'''
+```
 Bank-Marketing-Analysis/
 │
 ├── README.md                 # Project documentation (copy below)
@@ -52,7 +52,7 @@ Bank-Marketing-Analysis/
 │   └── dept_success_pie.png
 ├── requirements.txt          # Python dependencies
 └── .gitignore                # Ignore large files, outputs
-'''
+```
 
 # Visualizations Created
 Chart Type	Purpose	Key Insight
