@@ -8,32 +8,23 @@ A comprehensive analysis of bank marketing campaigns identifying key success fac
 
 # Dataset
 Source: Portuguese Bank Marketing dataset <a href = "https://github.com/bsyamini/bank_data_analysis/blob/main/bank_data.csv"> Dataset </a>
-
 Size: 45,000 customer records
-
 Focus: Predict subscription success ('yes'/'no') via customer demographics and interaction data
 
 # Tools & Libraries
 Jupyter Notebook: Interactive analysis environment
-
 Pandas & NumPy: Data loading, cleaning, feature engineering (balance/age ratios, bins)
-
 Matplotlib & Seaborn: Statistical charts (histograms, boxplots, KDE, jointplots, pie charts)
 
 # Analysis Steps
 Data Loading: Import CSV via pd.read_csv(), create working copy df_analysis = df.copy()
-
-Cleaning: Handle invalid ages, verify data integrity, no new columns created in original
+Cleaning: Handle invalid ages, verify data integrity, no new columns created in original keeping the original same
 ​
 
 # Exploratory Analysis:
-
 Crosstabs (job vs marital by campaign sum)
-
 Unique values (education, job categories)
-
 Feature engineering (balance_age_ratio)
-
 Insights Extraction: Groupby metrics (avg duration/success by campaign, department rates)
 ​
 ```
@@ -54,11 +45,9 @@ Bank-Marketing-Analysis/
 
 # Visualizations Created
 Chart Type	Purpose	Key Insight
-Histogram → Boxplot	Balance/Age ratio distribution	Outlier detection in customer ratios 
-​
+Histogram → Boxplot	Balance/Age ratio distribution	Outlier detection in customer ratios ​
 Bar → Jointplot	Duration by campaign contacts	Relationship between contacts and call length
-Bar → KDE Plot	Success rate by campaign	Density of successful vs unsuccessful campaigns 
-​
+Bar → KDE Plot	Success rate by campaign	Density of successful vs unsuccessful campaigns ​
 Bar → Pie Chart	Success by department	Proportional performance across jobs 
 ​
 ## Key Findings
@@ -66,4 +55,4 @@ Bar → Pie Chart	Success by department	Proportional performance across jobs
 - Job-specific performance patterns identified
 
 ## Skills Demonstrated
-Data cleaning, EDA, feature engineering, advanced visualizations, Git workflows
+Data cleaning, EDA, feature engineering, advanced visualizations
