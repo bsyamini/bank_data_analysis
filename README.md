@@ -7,7 +7,7 @@ A comprehensive analysis of bank marketing campaigns identifying key success fac
 ​
 
 # Dataset
-Source: Portuguese Bank Marketing dataset ( UCI ML Repository equivalent)
+Source: Portuguese Bank Marketing dataset <a href = "https://github.com/bsyamini/bank_data_analysis/blob/main/bank_data.csv"> Dataset </a>
 
 Size: 45,000 customer records
 
@@ -49,9 +49,7 @@ Bank-Marketing-Analysis/
 │   ├── balance_age_boxplot.png
 │   ├── campaign_duration_jointplot.png
 │   ├── success_kde.png
-└── ├── dept_success_pie.png
-
-```
+└── dept_success_pie.png
 
 # Visualizations Created
 Chart Type	Purpose	Key Insight
@@ -68,4 +66,3 @@ Bar → Pie Chart	Success by department	Proportional performance across jobs
 
 ## Skills Demonstrated
 Data cleaning, EDA, feature engineering, advanced visualizations, Git workflows
-
