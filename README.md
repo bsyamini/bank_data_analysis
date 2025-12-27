@@ -55,10 +55,13 @@ Bank-Marketing-Analysis/
 Chart Type	Purpose	Key Insight
 
 Histogram → Boxplot	Balance/Age ratio distribution	Outlier detection in customer ratios 
+
 ​
 Bar → Jointplot	Duration by campaign contacts	Relationship between contacts and call length
 
+
 Bar → KDE Plot	Success rate by campaign	Density of successful vs unsuccessful campaigns 
+
 ​
 Bar → Pie Chart	Success by department	Proportional performance across jobs 
 ​
