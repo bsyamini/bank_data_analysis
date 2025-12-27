@@ -50,6 +50,7 @@ Bank-Marketing-Analysis/
 │   ├── campaign_duration_jointplot.png
 │   ├── success_kde.png
 └── dept_success_pie.png
+```
 
 # Visualizations Created
 Chart Type	Purpose	Key Insight
