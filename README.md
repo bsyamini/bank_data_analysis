@@ -1,6 +1,6 @@
 # bank_data_analysis
 ## Bank Marketing Data Analysis
-This project analyzes a Portuguese banking dataset to uncover customer behaviors and campaign effectiveness through data cleaning, statistical insights, and visualizations. It demonstrates end-to-end data analytics skills using Python for portfolio showcase.
+This project analyzes a Portuguese banking dataset to uncover customer behaviors and campaign effectiveness through data cleaning, statistical insights, and visualizations. It demonstrates end-to-end data analytics skills for portfolio showcase.
 
 ## Project Overview
 A comprehensive analysis of bank marketing campaigns identifying key success factors like customer job types, campaign contacts, and duration patterns. Hidden insights reveal optimal strategies for subscription success, supporting data-driven business decisions.
@@ -11,7 +11,7 @@ Source: Portuguese Bank Marketing dataset <a href = "https://github.com/bsyamini
 
 Size: 45,000 customer records
 
-Focus: Predict subscription success ('yes'/'no') via customer demographics and interaction data
+Focus: Predict bank growth via customer demographics and interaction data
 
 # Tools & Libraries
 Jupyter Notebook: Interactive analysis environment
@@ -19,6 +19,8 @@ Jupyter Notebook: Interactive analysis environment
 Pandas & NumPy: Data loading, cleaning, feature engineering (balance/age ratios, bins)
 
 Matplotlib & Seaborn: Statistical charts (histograms, boxplots, KDE, jointplots, pie charts)
+
+Power BI: Dashboard creation
 
 # Analysis Steps
 Data Loading: Import CSV via pd.read_csv(), create working copy df_analysis = df.copy()
@@ -49,6 +51,7 @@ Bank-Marketing-Analysis/
 │   ├── campaign_duration_jointplot.png
 │   ├── success_kde.png
 └── dept_success_pie.png
+├── powerbi                   # Dashboard creation
 ```
 
 # Visualizations Created
@@ -64,6 +67,8 @@ Bar → KDE Plot	Success rate by campaign	Density of successful vs unsuccessful 
 
 ​
 Bar → Pie Chart	Success by department	Proportional performance across jobs 
+
+Power BI → Dashboard creation for the data insights
 ​
 ## Key Findings
 - Higher contacts → longer duration, lower success
